@@ -1,7 +1,6 @@
 # react-md-article
 ### A react component inspired by google material design.
-
-![](https://j.gifs.com/wmmK5r.gif)
+![](https://i.imgur.com/G4Fu6z2.gif)
 
 ## Install
 ```bash
@@ -37,20 +36,18 @@ const article = {
   };
 
 class App extends Component {
-  render() {
-
-	  const { title, description, headerIcon, articleImage } = article;
-
-	  return (
-		  <ReactMDArticle
-			title={title}
-			description={description}
-			headerIcon={headerIcon}
-			articleImage={articleImage}
-			onClick={(e) => console.log('Pressed!')}
-		  />
-	  );
-  }
+	render() {
+		const { title, description, headerIcon, articleImage } = article;
+		return (
+			<ReactMDArticle
+				title={title}
+				description={description}
+				headerIcon={headerIcon}
+				articleImage={articleImage}
+				onClick={(e) => console.log('Pressed!')}
+			/>
+		);
+	}
 }
 ```
 
