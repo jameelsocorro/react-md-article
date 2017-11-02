@@ -9,19 +9,6 @@ $ npm install react-md-article --save-dev
 
 ## Usage
 
-### Properties
-
-| Property     | Description                                           | Type      |
-| ------------ | ----------------------------------------------------- | --------- |
-| title        | Title of the article                                  | string    |
-| description  | Description will be under the title                   | string    |
-| headerIcon   | Image that is beside the title                        | url/bytes |
-| articleImage | Hero image of the article                             | url/bytes |
-| onClick      | Function triggered when article is clicked            | function  |
-| borderColor  | The color of the border on top of the title           | string    |
-| responsive   | The first two articles at the top see demo at the top | boolean   |
-| grid         | The 3 column articles displayed on demo at the top    | boolean   |
-
 ### ReactMDArticle
 Stand-alone article component
 ```javascript
@@ -127,6 +114,20 @@ class App extends Component {
   }
 }
 ```
+
+## Properties
+
+| Property     | Description                                           | Type      |
+| ------------ | ----------------------------------------------------- | --------- |
+| title        | Title of the article                                  | string    |
+| description  | Description will be under the title                   | string    |
+| headerIcon   | Image that is beside the title                        | url/bytes |
+| articleImage | Hero image of the article                             | url/bytes |
+| onClick      | Function triggered when article is clicked            | function  |
+| borderColor  | The color of the border on top of the title           | string    |
+| responsive   | The first two articles at the top see demo at the top | boolean   |
+| grid         | The 3 column articles displayed on demo at the top    | boolean   |
+
 
 ### Credits
 [Material Components Web](https://github.com/material-components/material-components-web)
