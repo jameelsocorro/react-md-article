@@ -4,7 +4,7 @@
 
 ## Install
 ```bash
-$ npm install react-md-article --save-dev
+$ npm install react-md-article --save
 ```
 
 ## Usage
